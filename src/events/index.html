@@ -1,0 +1,129 @@
+<!--Static page. Informartion about guatemalan holydays, their dates, and the destination where they take place with a hyperlink to the destinations page, with the information card for the selected place open-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events - Guatemala Touristic Guide</title>
+    <meta name="author" content="Luis Maradiaga" />
+    <meta
+      name="description"
+      content="Learn about holidays and festivals in Guatemala, including dates and locations. Explore destinations and event details to plan your visit."
+    />
+    <meta property="og:title" content="Events - Guatemala Touristic Guide" />
+    <meta
+      property="og:description"
+      content="Learn about holidays and festivals in Guatemala, including dates and locations. Explore destinations and event details to plan your visit."
+    />
+    <meta
+      property="og:image"
+      content="https://el-luih.github.io/wdd330-final-project-guatemala-touristic-guide/images/gtg-icon.svg"
+    />
+    <meta
+      property="og:url"
+      content="https://el-luih.github.io/wdd330-final-project-guatemala-touristic-guide/events/index.html"
+    />
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="icon" href="/images/favicon.ico" />
+    <script src="/scripts/events.js" type="module"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="dynamic-header"></div>
+    <main class="events-page">
+      <article class="hero">
+        <picture>
+          <source
+            srcset="/images/heros/events-hero-ultrawide.webp"
+            media="(min-width: 1500px)"
+          />
+          <source
+            srcset="/images/heros/events-hero-wide.webp"
+            media="(min-width: 800px)"
+          />
+          <img
+            src="/images/heros/events-hero-short.webp"
+            alt="A background picture of a traditional event in Guatemala."
+          />
+        </picture>
+        <h1 class="title">
+          Discover Tradition
+          <span class="flavor"
+            >Find out about the most important events celebrated around
+            Guatemala.</span
+          >
+        </h1>
+      </article>
+
+      <div class="container">
+        <!--
+        Displays event cards in a grid of 1-2 columns.
+        The grid is divided in multiple sections, one for each month of the year.
+        -->
+        <!--
+        Each event card contains:
+        + An image
+        + The name of the event
+        + The exact date of the event
+        + A description of the event
+        + A visual queue that helps determine whether the event has already passed or not, based on the dates.
+        -->
+        <section id="januray-events">
+          <h2>January</h2>
+          <!--Dynamycally generated events for the month.-->
+        </section>
+
+        <section id="february-events">
+          <h2>February</h2>
+          <!--Dynamycally generated events for the month.-->
+        </section>
+
+        <section id="april-events">
+          <h2>April</h2>
+          <!--Dynamycally generated events for the month.-->
+        </section>
+
+        <section id="may-events">
+          <h2>May</h2>
+          <!--Dynamycally generated events for the month.-->
+        </section>
+
+        <section id="june-events">
+          <h2>June</h2>
+          <!--Dynamycally generated events for the month.-->
+        </section>
+
+        <section id="july-events">
+          <h2>July</h2>
+          <!--Dynamycally generated events for the month.-->
+        </section>
+
+        <section id="august-events">
+          <h2>August</h2>
+          <!--Dynamycally generated events for the month.-->
+        </section>
+
+        <section id="september-events">
+          <h2>September</h2>
+          <!--Dynamycally generated events for the month.-->
+        </section>
+        <section id="november-events">
+          <h2>November</h2>
+          <!--Dynamycally generated events for the month.-->
+        </section>
+
+        <section id="december-events">
+          <h2>December</h2>
+          <!--Dynamycally generated events for the month.-->
+        </section>
+      </div>
+    </main>
+    <div id="dynamic-footer"></div>
+  </body>
+</html>
