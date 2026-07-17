@@ -2,7 +2,7 @@ import { resolve } from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/wdd330-final-project-guatemala-touristic-guide/',
+  base: '/el-luih-touristic-app-mockup/',
   root: 'src/',
 
   build: {
